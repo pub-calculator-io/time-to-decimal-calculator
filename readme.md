@@ -12,9 +12,8 @@ Time to decimal calculator can convert the time format from hh:mm:ss to decimal 
 3. Activate the [Time to Decimal Calculator](https://www.calculator.io/time-to-decimal-calculator/ "Time to Decimal Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_time_to_decimal_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Time to Decimal Calculator to the sidebar through the `Appearance -> Widgets -> Time to Decimal Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_time_to_decimal_calculator(); ?>` to your template where you would like the Time to Decimal Calculator to appear.
+* Add the shortcode `[ci_time_to_decimal_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_time_to_decimal_calculator(); ?>` to your template where you would like the Time to Decimal Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
