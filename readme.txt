@@ -13,6 +13,8 @@ Time to decimal calculator can convert the time format from hh:mm:ss to decimal 
 
 Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.
 
+[Time to Decimal Calculator Homepage](https://www.calculator.io/time-to-decimal-calculator/ "Time to Decimal Calculator Homepage")
+
 __Shortcode__
 
 Use the Time to Decimal Calculator shortcode:
