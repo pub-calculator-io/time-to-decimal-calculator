@@ -1,6 +1,6 @@
 === Time to Decimal Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: time to decimal calculator, hh:mm:ss format conversion, decimal hours conversion, decimal minutes conversion, decimal seconds conversion, manual time conversion, time conversion in engineering, project management time tracking, construction time management, efficient time data management
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
