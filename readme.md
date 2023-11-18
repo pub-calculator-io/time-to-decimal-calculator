@@ -1,4 +1,4 @@
-# Time to Decimal Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Time to Decimal Calculator Widget for WordPress
 
 Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.
 
