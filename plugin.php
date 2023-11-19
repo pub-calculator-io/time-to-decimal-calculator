@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Time to Decimal Calculator by www.calculator.io
+Plugin Name: CI Time to decimal calculator
 Plugin URI: https://www.calculator.io/time-to-decimal-calculator/
 Description: Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.
 Version: 1.0.0
