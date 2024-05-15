@@ -28,21 +28,21 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator  ">
                 			<p class="input__title">Hours</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="hours" value="2"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator  ">
                 			<p class="input__title">Minutes</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="minutes" value="45"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col time-calculator,hours-calculator,time-duration-calculator,hours-and-minutes-calculator  ">
                 			<p class="input__title">Seconds</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="seconds" value="45"  />
@@ -57,13 +57,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -78,12 +80,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">HOURS</p>
 	<div class="table-cell row">
-		<p class="result-text" id="result">
+		<p class="result-text animate" id="result">
 			2.7625 hours<br>
 			or 165.75 minutes<br>
 			or 9945 seconds

@@ -7,8 +7,8 @@ function calculate(){
 	const totalSeconds = hours * 3600 + minutes * 60 + seconds;
 	const hoursDecimal = totalSeconds / 3600;
 	const minutesDecimal = totalSeconds / 60;
-	const result = `${+hoursDecimal.toFixed(4)} hours<br>
-		or ${+minutesDecimal.toFixed(4)} minutes<br>
-		or ${totalSeconds} seconds`;
+	const result = `${plural(hoursDecimal.toFixed(4), 'hours:hour:hours:hours:hours:hours')}<br>
+		or ${plural(minutesDecimal.toFixed(4), 'minutes:minute:minutes:minutes:minutes:minutes')}<br>
+		or ${plural(totalSeconds, 'seconds:second:seconds:seconds:seconds:seconds')}`;
 	output.val(result).set('result');
 }

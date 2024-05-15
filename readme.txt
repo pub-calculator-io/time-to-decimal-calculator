@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Time to Decimal
 == Screenshots ==
 
 1. The Time to Decimal Calculator Input Form.
-2. The Time to Decimal Calculator Calculation Results.
 
 == Installation ==
 

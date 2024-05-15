@@ -3,7 +3,6 @@
 Time to decimal calculator can convert the time format from hh:mm:ss to decimal hours, minutes, and seconds. Learn to convert hours to decimal form.
 
 ![Time to Decimal Calculator Input Form](/assets/images/screenshot-1.png "Time to Decimal Calculator Input Form")
-![Time to Decimal Calculator Calculation Results](/assets/images/screenshot-2.png "Time to Decimal Calculator Calculation Results")
 
 ## Installation
 
